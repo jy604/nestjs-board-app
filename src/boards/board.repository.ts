@@ -5,7 +5,6 @@ import { CreateBoardDto } from "./dto/create-board.dto";
 import { BoardStatus } from "./board-status.enum";
 
 @Injectable()
-
 export class BoardRepository extends Repository<Board> {
 
 constructor(private dataSource: DataSource) {
